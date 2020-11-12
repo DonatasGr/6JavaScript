@@ -85,3 +85,12 @@ console.log('Bango zinute: pavedimas padarytas.')
     } else {
         console.log(false);
     }
+
+    /*
+    Kintamieji
+    Salygos funkcijos
+    Ciklo funkcijos
+    Funkcijos
+    Event lisner'iai
+
+    */
