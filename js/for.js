@@ -113,3 +113,52 @@ Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspausdinti kas gaun
 pvz.: abcdef -> bdf
 */
 
+const tekstas = 'abcdef';
+const kiekis = tekstas.length;
+let rezultatas = '';
+
+console.log(tekstas);
+console.log(kiekis);
+
+for (let i = 0; i < kiekis; i++) {
+    if(i % 2 !== 0) {
+        rezultatas +=tekstas[i];
+    }
+}
+
+console.log(rezultatas);
+
+console.log('--------------');
+
+/* 
+Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspausdinti kas gaunasi.
+pvz.: pomidoras
+*/
+
+const zodis = 'pomidoras';
+const step = 2 
+let rez = '';
+
+for (let i = step - 1; i < zodis.length; i = i + step) {
+    const raide = zodis[i];
+    rez = rez + raide;
+}
+
+console.log(rez);
+
+console.log('--------------');
+
+/*
+const zodis = 'pomidoras';
+const step = 2; 
+const pirmosRaidesPozicija = step - 1;
+let rez = '';
+
+for (let i = pirmosRaidesPozicija; i < zodis.length; i = i + step) {
+    const raide = zodis[i];
+    rez = rez + raide;
+}
+
+console.log(rez);
+
+*/ papildyt
